@@ -13,7 +13,7 @@
       <p>当前用户: {{state.userList.length}}</p>
     </div>
     
-    <div id="micro-vue-viewport"></div>
+    <div id="micro-viewport"></div>
   </div>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h1>子程序</h1>
+    <h1>子程序 -- vue</h1>
     <p>父程序的数据: {{state.userList.length}}</p>
     <button @click="btnClick">改变全局数据</button>
   </div>
