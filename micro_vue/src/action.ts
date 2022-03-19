@@ -15,8 +15,8 @@ class Actions {
   }
 
   // 映射
-  onGlobalStateChange(cb: unknown, change: boolean) {
-    return this.actions.onGlobalStateChange(cb, change);
+  onGlobalStateChange(...args: []) {
+    return this.actions.onGlobalStateChange.apply(null, args);
   }
 
   // 映射

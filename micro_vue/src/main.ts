@@ -11,7 +11,7 @@ const app = createApp(App);
 
 let router = null;
 function render(props: any) {
-  const { container, activeRule } = props;
+  const { container } = props;
 
   router = createRouter({
     history: createWebHistory(

@@ -10,7 +10,7 @@
     </nav>
     <div>
       <h1>主程序</h1>
-      <p>当前人数: {{state.userList.length}}</p>
+      <p>当前用户: {{state.userList.length}}</p>
     </div>
     
     <div id="micro-vue-viewport"></div>
